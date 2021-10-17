@@ -9,7 +9,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
   <li> HTML - Estruturação básica da Página Web.
   <li> CSS - Estilização e Design, através do uso de fontes externas [ Google Fonts ] e Layouts de Página [ Flex Box ].
-  <li> JavaScript - Navegação pelo DOM com querySelector | Criação de classes e Métodos para consultar dados de forma implícita | Criação Funções | Inclusão e alteração dos textos e imagens com InnerHTML.
+  <li> JavaScript - Navegação pelo DOM com querySelector | Criação de classes e Métodos para consultar dados | Criação Funções | Inclusão e alteração dos textos e imagens com InnerHTML.
 
 
 <h4 align="center"> 
