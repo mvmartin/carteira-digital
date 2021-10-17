@@ -1,0 +1,39 @@
+@media screen and (max-width:570px){
+
+    html{
+        height: 100vh;
+    }
+
+    h2{
+       font-size: 1rem;
+    }
+
+    .cifrao{
+        font-size: 1.4rem;
+    }
+
+
+    img{
+        width:40px;
+    }
+
+    .nomes-contas{
+
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+
+    .operacoes{
+
+        margin-left: 2rem;
+    }
+
+    .transacoes{
+        margin-left: 0;
+    }
+
+    input,button{
+        margin-left: 0;
+    }
+
+}
