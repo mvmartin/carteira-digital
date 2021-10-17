@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&display=swap');
+
+html{
+    background: linear-gradient(170deg, black 50%, rgb(1, 1, 56));
+    height: 100vh;
+    font-family: 'Baloo da 2';
+}
+
+.contas{
+    display: flex;
+    justify-content: space-around;
+}
+
+.titulo{
+    
+    color:white;
+    font-weight: 100;
+}
+
+.saldo{
+    display: flex;
+    align-items: center;
+
+}
+
+img{
+width: 50px;
+}
+
+.cifrao,.saldo-CP,.saldo-CC{
+   
+    color:white;
+    font-weight: 100;
+    font-size: 1.8rem;
+    margin-left: 10px;
+}
+
+.transacoes{
+    margin-top: 5rem;
+
+    margin-left: 2rem;
+    
+}
+
+.operacoes{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.lista-operacores{
+    color:white;
+    list-style-type: none;
+}
+
+.detalhes{
+    color:white
+}
+
+.lista-operacores li:hover{
+    color:deeppink;
+    cursor: pointer;
+}
+
+
+
+.formulario-depositar-cc{
+    margin-top: 2rem;
+    color:white;
+    text-align: center;
+    display: none; /*-------------Alterar nesse form------------*/
+    
+}
+
+
+.formulario-depositar-cp{
+    margin-top: 2rem;
+    color:white;
+    text-align: center;
+    display: none;
+}
+
+
+.formulario-sacar-cc{
+    margin-top: 2rem;
+    color:white;
+    text-align: center;
+    display: none;
+}
+
+.formulario-sacar-cp{
+    margin-top: 2rem;
+    color:white;
+    text-align: center;
+    display: none;
+}
+
+.formulario-transferir-cc{
+    margin-top: 2rem;
+    color:white;
+    text-align: center;
+    display: none;
+}
+
+.formulario-transferir-cp{
+    margin-top: 2rem;
+    color:white;
+    text-align: center;
+    display: none;
+}
+
+.formulario-cc-conta{
+
+    margin-top: 2rem;
+    color:white;
+    text-align: center;
+    display: none;
+
+}
+
+.formulario-cc-conta input{
+    margin-top: 1rem;
+}
+
+.input-outra-cc{
+    margin-left: 31px;
+}
+
+.input-outra-cc-valor{
+    margin-left: 36px;
+
+}
+
+.button-outra-cc{
+
+    margin-top: 1rem;
+}
+
+.formulario-cp-conta{
+    margin-top: 2rem;
+    color:white;
+    text-align: center;
+    display: none;
+}
+
+.formulario-cp-conta input{
+    margin-top: 1rem;
+}
+
+.input-outra-cp{
+    margin-left: 31px;
+}
+
+.input-outra-cp-valor{
+    margin-left: 36px;
+
+}
+
+.button-outra-cp{
+
+    margin-top: 1rem;
+}
+
+
+label{
+    font-size: 1.1rem;
+}
+
+input{
+
+    border-radius: 20px;
+    margin-left: 1rem;
+    text-align: center;
+    padding:.4rem;
+}
+
+
+button{
+    margin-left: 1rem;
+    border-radius: 20px;
+    width: 90px;
+    cursor: pointer;
+    background: deeppink;
+    color:white;
+    padding:.3rem;
+}
+
+button:hover{
+
+    background: purple;
+}
+
+.ni{
+    color:white;
+    opacity: 0.5;
+
+}
+.ni:hover{
+    opacity: 1;
+}
+
+
+.informacoes-usuario{
+
+    margin-top: 10rem;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color:white;
+    font-weight: 100;
+}
+
+.imagem-usuario{
+
+    width: 200px;
+    border-radius: 50%;
+
+}
+
+
+.informacoes-usuario p{
+    
+    font-size: 1.2rem;
+}
+
+.container div{
+    display: flex;
+    
+}
+.container div h4{
+    margin-right: 2rem;
+    
+}
+
+.voltar{
+    margin-top: 1rem;
+}

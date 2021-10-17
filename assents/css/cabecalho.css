@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.cabecalho{
+    display: flex;
+    width: 100%;
+    background: linear-gradient(190deg, rgb(104, 27, 177), purple 70%);
+}
+
+.pessoal-cliente{
+    display: flex;
+    padding:.3rem;
+    margin-left: 1rem;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.imagem-cliente{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: 15%;
+}
+
+.info-bancarias_clientes{
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+}
+
+.info-bancarias_clientes p{
+    margin: auto 1rem;
+}
+    
+.cabecalho p{
+    font-family: 'Baloo da 2';
+    text-align: center;
+    font-size: 1.2rem;
+    color:white;
+}
+
+.info-bancarias_clientes p{
+    cursor: pointer;
+}
+
+.info-bancarias_clientes p:hover{
+    color:deeppink;
+}
+
+.nomes-contas{
+    display: flex;
+    color:white;
+    margin: 15px 15px  auto  auto;
+    justify-content: end;
+    font-family: 'baloo Da 2';
+}
+
+.nomes{
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    background: transparent;
+    border:none;
+    color:rgb(247, 113, 184);
+    border-bottom: 1px rgb(104, 27, 177) solid;
+}
+
+.logado{
+    margin-right: 5px;
+    margin-top: -2px;
+}
+

@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assents/css/cabecalho.css">
+    <link rel="stylesheet" href="./assents/css/overview.css">
+
+
+    <title>Shiro Digital Bank</title>
+</head>
+<body>
+
+    <header >
+
+        <section class="cabecalho">
+
+            <div class="pessoal-cliente">
+
+                <img class="imagem-cliente" src="./assents/img/Marcos.jpg" alt="">
+                <p class="cliente">Olá, <span class="span-name">Marcos</span> !</p>
+
+            </div>
+
+            <div class="info-bancarias_clientes">
+                <p class="relatorios">Informações de Usuário</p>
+            </div>
+
+        </section>
+
+    </header>
+
+    <main>
+
+            <section class="usuarios">
+
+            <div class="nomes-contas">
+                <p class="logado">*Logado com</p>
+                <select class="nomes">
+                    <option value="Marcos">Marcos</option>
+                    <option value="Antonio">Antonio</option>
+                    <option value="Lucas">Lucas</option>
+                </select>
+            </div>
+
+        </section>
+        
+    <section class="overview">
+
+        <div class="contas">
+
+            <div class="corrente">
+                <h2 class="titulo">Saldo Conta Corrente</h2>
+
+                <div class="saldo">
+                    <img src="./assents/img/deposit white.png" alt="">
+                    <h3 class="cifrao">R$</h3><span class="saldo-CC">0</span>
+                </div>
+
+            </div>
+
+            <div class="poupanca">
+                <h2 class="titulo">Saldo Conta Poupança</h2>
+
+                <div class="saldo">
+                    <img src="./assents/img/deposit white.png" alt="">
+                    <h3 class="cifrao">R$</h3><span class="saldo-CP">0</span>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <section class="transacoes">
+
+        
+
+        <div class="operacoes">
+            <h1 class="titulo">O que gostaria de fazer?</h1>
+
+            <ul class="lista-operacores">
+
+                <li class="deposito-cc">Deposito em Conta Corrente</li>
+                <li class="deposito-cp">Deposito em Conta Poupança</li>
+                <br>
+                <li class="saque-cc">Saque em Conta Corrente</li>
+                <li class="saque-cp">Saque em Conta Poupança</li>
+                <br>
+                <li class="transferir-cc">Tranferir de Conta Corrente para Poupança</li>
+                <li class="transferir-cp">Tranferir da Poupança para Conta Corrente</li>
+                <br><!--
+                <li class="transferir-cc-outro">Tranferir Conta Corrente para outra Conta *</li>
+                <li class="transferir-cp-outro">Tranferir Conta Poupança para outra Conta *</li>-->
+            </ul> 
+            <br>
+             <!--<p class="ni">*funcional mas ainda não implementado.</p>-->
+        </div>
+
+        <div class="formulario-depositar-cc">
+
+            <h3 class="titulo">Depositar em Conta Corrente</h3>
+
+            <form class="conta-corrente">
+
+                
+                <label for="">Valor : </label>
+                <input class="input-conta-corrente" type="text" placeholder="00,00">
+                <button class="button-conta-corrente">Confirmar</button>
+
+            </form>
+
+        </div>
+
+        <div class="formulario-depositar-cp">
+
+            <h3 class="titulo">Depositar em Conta Poupança</h3>
+
+            <form class="conta-poupanca">
+
+                
+                <label for="">Valor : </label>
+                <input class="input-conta-poupanca" type="text" placeholder="00,00">
+                <button class="button-conta-poupanca">Confirmar</button>
+
+            </form>
+
+        </div>
+
+
+        <div class="formulario-sacar-cc">
+
+            <h3 class="titulo">Sacar de Conta Corrente </h3>
+
+            <form class="sacar-cc">
+
+                
+                <label for="">Valor : </label>
+                <input class="input-scacar-cc" type="text" placeholder="00,00">
+                <button class="button-sacar-cc">Confirmar</button>
+
+            </form>
+
+        </div>
+
+        <div class="formulario-sacar-cp">
+
+            <h3 class="titulo">Sacar de Conta Poupança </h3>
+
+            <form class="sacar-cp">
+
+                
+                <label for="">Valor : </label>
+                <input class="input-scacar-cp" type="text" placeholder="000">
+                <button class="button-sacar-cp">Confirmar</button>
+
+            </form>
+
+        </div>
+
+
+        <div class="formulario-transferir-cc">
+
+            <h3 class="titulo">Transferir de Corrente para Poupança </h3>
+
+            <form class="transferir-cc">
+
+                
+                <label for="">Valor : </label>
+                <input class="input-transferir-cc" type="text" placeholder="000">
+                <button class="button-transferir-cc">Confirmar</button>
+
+            </form>
+
+        </div>
+
+        <div class="formulario-transferir-cp">
+
+            <h3 class="titulo">Resgatar da Poupança </h3>
+
+            <form class="transferir-cp">
+
+                
+                <label for="">Valor : </label>
+                <input class="input-transferir-cp" type="text" placeholder="000">
+                <button class="button-transferir-cp">Confirmar</button>
+
+            </form>
+
+        </div>
+
+
+
+        
+
+        <div class="formulario-cc-conta">
+
+            <h3 class="titulo">Tranferir de Conta Corrente para outra Conta</h3>
+
+            <form class="agencia-conta">
+
+                <label for="">Agencia : </label>
+                <input class="input-cc-outra-agencia" type="text" placeholder="000">
+
+            </form>
+
+            <form class="">
+
+                <label for="">Conta : </label>
+                <input class="input-outra-cc" type="text" placeholder="0000-000">
+
+            </form>
+            <form class="">
+            
+
+                <label for="">Valor : </label>
+                <input class="input-outra-cc-valor" type="text" placeholder="00,00">
+                
+            </form>
+            <button class="button-outra-cc">Confirmar</button>
+
+        </div>
+
+
+        
+
+        <div class="formulario-cp-conta">
+
+            <h3 class="titulo">Tranferir de Conta Poupança para outra Conta</h3>
+
+            <form class="agencia-conta">
+
+                <label for="">Agencia : </label>
+                <input class="input-cp-outra-agencia" type="text" placeholder="000">
+
+            </form>
+
+            <form class="">
+
+                <label for="">Conta : </label>
+                <input class="input-outra-cp" type="text" placeholder="0000-000">
+
+            </form>
+            <form class="">
+            
+
+                <label for="">Valor : </label>
+                <input class="input-outra-cp-valor" type="text" placeholder="00,00">
+                
+            </form>
+            <button class="button-outra-cp">Confirmar</button>
+
+        </div>
+
+        
+    </section>
+
+
+
+</main>
+
+
+<section class="informacoes-usuario">
+
+    <div class="container">
+
+        <img class="imagem-usuario" src="./assents/img/Marcos.jpg" alt="">
+
+        <div class="usuario">
+            <h4>Nome:</h4>
+            <p class="usuario-nome"></p>
+        </div>
+
+        <div class="cpf">
+            <h4>CPF: </h4>
+            <p class="cpf-numero"></p>
+        </div>
+
+        <div class="endereco">
+            <h4>Endereço: </h4>
+            <p class="endereco-nome"></p>
+        </div>
+
+        <div class="bairro">
+            <h4>Bairro: </h4>
+            <p class="bairro-nome"></p>
+        </div>
+
+        <div class="cidade">
+            <h4>Cidade: </h4>
+            <p class="cidade-nome"></p>
+        </div>
+
+        <div class="conta">
+            <h4>Conta: </h4>
+            <p class="conta-numero"></p>
+        </div>
+
+        <div class="agencia">
+            <h4>Agencia: </h4>
+            <p class="agencia-numero"></p>
+        </div>
+
+
+
+        <button class="voltar" onclick="voltarPage()">Voltar</button>
+
+    </div>
+
+</section>
+
+<script src="./assents/javascript/Contas.js"></script> 
+<script src="./assents/javascript/deposito.js"></script>
+<script src="./assents/javascript/saque.js"></script>
+<script src="./assents/javascript/transferir.js"></script>
+<script src="./assents/javascript/transferirBanco.js"></script>
+<script src="./assents/javascript/usuarios.js"></script>
+
+</body>
+
+</html>
